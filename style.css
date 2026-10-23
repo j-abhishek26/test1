@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6fb; color: #1e293b; }
+.container { max-width: 850px; margin: 32px auto; padding: 0 18px; }
+header { margin-bottom: 22px; }
+.eyebrow { font-size: 12px; letter-spacing: 2px; font-weight: bold; color: #475569; }
+.muted { color: #64748b; }
+.panel { background: white; padding: 22px; border: 1px solid #e2e8f0; border-radius: 12px; margin-bottom: 20px; }
+form { display: grid; gap: 12px; }
+label { display: grid; gap: 6px; font-weight: 600; }
+input, textarea, select { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 7px; font: inherit; }
+button { border: 0; border-radius: 7px; padding: 10px 14px; background: #1d4ed8; color: white; cursor: pointer; }
+.secondary { background: #475569; }
+.danger { background: #b91c1c; }
+.heading, .project { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.project { border-top: 1px solid #e2e8f0; padding: 14px 0; }
+.project h3 { margin: 0 0 6px; }
+.project p { margin: 5px 0 10px; }
+.status { display: inline-block; padding: 4px 8px; background: #e2e8f0; border-radius: 18px; font-size: 12px; }
+.error { color: #b91c1c; }
+a { color: #1d4ed8; }
+@media (max-width: 520px) { .container { margin-top: 18px; } .panel { padding: 16px; } }
